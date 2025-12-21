@@ -6,6 +6,7 @@
 
 body {
   background-color: #212121;
+  color: #efefef;
 }
 
 nav {
@@ -27,4 +28,26 @@ nav ul a {
 nav ul a:hover {
   background-color: #efefef;
   color: #181818;
+}
+
+.hero {
+  background-color: #181818;
+  padding: 1.5rem;
+  display: flex;
+  margin: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.hero .hero-buttons a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: aqua;
+}
+.hero .hero-buttons a:hover {
+  text-decoration: underline;
+}
+.hero .hero-buttons a:active {
+  color: rgb(2, 227, 227);
 }
