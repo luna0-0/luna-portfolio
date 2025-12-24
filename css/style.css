@@ -81,3 +81,36 @@ section {
 }
 
 /* PROJECTS */
+.all-projects {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.all-projects .project-card {
+  width: 250px;
+  min-height: 200px;
+  border: 1px solid aqua;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  flex-shrink: 0;
+}
+.all-projects .project-card a {
+  border: 1px solid aqua;
+  border-radius: 10px;
+  padding: 0.3rem;
+  text-decoration: none;
+  color: aqua;
+  width: 45%;
+}
+.all-projects .project-card a:hover {
+  background-color: aqua;
+  color: #181818;
+}
+
+/* CONTACT */
