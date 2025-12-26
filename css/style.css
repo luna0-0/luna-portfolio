@@ -40,8 +40,10 @@ nav ul a {
   text-decoration: none;
 }
 nav ul a:hover {
-  background-color: #87c7ca;
-  color: #0e0e0e;
+  background-color: rgba(145, 234, 239, 0.9);
+}
+nav ul a:active {
+  background-color: rgba(165, 241, 245, 0.9);
 }
 
 /* MAIN */
@@ -85,7 +87,11 @@ nav ul a:hover {
 
 /* SKILLS */
 #skills ul {
-  margin-left: 2rem;
+  margin-left: 1.5rem;
+  list-style: none inside;
+}
+#skills h3{
+  margin-top: 1rem;;
 }
 
 /* PROJECTS */
