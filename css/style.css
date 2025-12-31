@@ -19,7 +19,8 @@ section {
   padding: 2rem;
 }
 
-h1, h2{
+h1,
+h2 {
   padding-bottom: 0.5rem;
 }
 /* NAVBAR */
@@ -61,9 +62,7 @@ nav ul a:active {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  background-image: url("../assets/hero-bg.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  background: url("../assets/hero-bg.png") top left / cover no-repeat fixed;
 }
 .hero .hero-buttons {
   margin-top: 1rem;
